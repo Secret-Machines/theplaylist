@@ -34,11 +34,13 @@ const useStyles = makeStyles(theme => ({
   },
   drawer: {
     width: drawerWidth,
-    flexShrink: 0
+    flexShrink: 0,
+    color: "lightblue"
   },
   drawerPaper: {
     width: drawerWidth,
-    color: "salmon"
+    color: "salmon",
+    backgroundColor: "lightblue"
   },
   drawerHeader: {
     display: "flex",
@@ -119,8 +121,8 @@ export default function ButtonAppBar(side) {
             </Link>
           </li>
           <li>
-            <Link className="Link" to="/searchbrewery">
-              Search Breweries in the US
+            <Link className="Link" to="/playlist/2020">
+              2020 Music Playlist
             </Link>
           </li>
           <li>
